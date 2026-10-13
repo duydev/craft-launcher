@@ -184,3 +184,23 @@
 	No downloads for this system	Không có bản tải xuống cho hệ thống này
 	Checking…	Đang kiểm tra…
 	Checking for updates…	Đang kiểm tra cập nhật…
+# Settings / preferences / appearance / community links
+	Only when I ask	Chỉ khi tôi yêu cầu
+	Automatically download and install updates	Tự động tải xuống và cài đặt cập nhật
+	Notify me when an installed app has an update	Thông báo khi ứng dụng đã cài có bản cập nhật
+	Include pre-releases (betas and release candidates)	Bao gồm bản trước phát hành (beta và ứng viên phát hành)
+	Installing on Linux	Cài đặt trên Linux
+	Install new apps as	Cài ứng dụng mới dưới dạng
+	System package (recommended)	Gói hệ thống (khuyến nghị)
+	Updates always use the format an app was installed with.	Cập nhật luôn dùng định dạng mà ứng dụng đã được cài.
+	Running in the background	Chạy nền
+	Keep running in the tray when the window is closed	Tiếp tục chạy trên khay khi đóng cửa sổ
+	Show the window on the current desktop	Hiện cửa sổ trên desktop hiện tại
+	Start ArtCraft Launcher when I log in	Khởi động ArtCraft Launcher khi tôi đăng nhập
+	Questions, ideas and news from the ArtCraft team	Câu hỏi, ý tưởng và tin tức từ đội ArtCraft
+	Join the ArtCraft community on Discord	Tham gia cộng đồng ArtCraft trên Discord
+	ArtCraft on {name}	ArtCraft trên {name}
+	Website (coming soon)	Trang web (sắp ra mắt)
+	GitHub repository	Kho GitHub
+	When on, opening the launcher from the menu bar brings its window to the desktop you're on. When off, macOS switches you to the desktop the window was on.	Khi bật, mở launcher từ thanh menu đưa cửa sổ về desktop bạn đang dùng. Khi tắt, macOS chuyển bạn sang desktop nơi cửa sổ đang nằm.
+	Couldn't change the login item: {e}	Không đổi được mục đăng nhập: {e}
