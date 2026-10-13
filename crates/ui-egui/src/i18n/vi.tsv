@@ -1,0 +1,97 @@
+# Vietnamese (vi) catalog for ArtCraft Launcher.
+# Format: context<TAB>source<TAB>translation
+# Empty context = plain UI string (tl!, t).
+# @id = command-id keyed (tr_id).
+# @plural = plural forms: one|other in English, one form for Vietnamese.
+# @msg = status/error message template (message, msg).
+# Other context = disambiguation for tr_ctx.
+#
+# Clean-room: written from the meaning of ArtCraft Launcher's English labels in neutral Vietnamese
+# appropriate for desktop software. Product names stay in English.
+#
+# Coverage: in progress (complete_menus = false). Product name "ArtCraft Launcher" (and its
+# "Launcher" tag), suite name "Craft App Suite", app names (PhotoCraft, LightCraft, FilmCraft,
+# DesignCraft, VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft,
+# SoundCraft, FigCraft), "GitHub", "Discord" stay in English.
+# Trailing "…" (U+2026) must be preserved. Placeholders {name}, {n}, {version}, {count}, {v},
+# {what}, {unit}, {real}, {e} must appear in translation.
+# Vietnamese has one plural form.
+
+# Global shell / navigation and generic top-level controls
+	Launcher	Launcher
+	Craft App Suite	Craft App Suite
+	ArtCraft Launcher	ArtCraft Launcher
+	ArtCraft	ArtCraft
+	Open Source Tools for Creatives, Makers, and Builders	Công cụ mã nguồn mở dành cho nhà sáng tạo, maker và builder
+	Settings	Cài đặt
+	Check for updates	Kiểm tra cập nhật
+	Check for Updates	Kiểm tra cập nhật
+	Grid	Lưới
+	Table	Bảng
+	Show apps as cards	Hiện ứng dụng dạng thẻ
+	Show apps as a table	Hiện ứng dụng dạng bảng
+	⊞  Grid	⊞  Lưới
+	☰  Table	☰  Bảng
+	🔍  Search apps	🔍  Tìm ứng dụng
+	All	Tất cả
+	Updates	Cập nhật
+	Not installed	Chưa cài đặt
+	Search apps	Tìm ứng dụng
+	Sort	Sắp xếp
+	Suite order	Thứ tự bộ ứng dụng
+	Name	Tên
+	Inspired by	Lấy cảm hứng từ
+	Status	Trạng thái
+	Installed version	Phiên bản đã cài
+	Latest version	Phiên bản mới nhất
+	Newest release	Bản phát hành mới nhất
+	Discord	Discord
+	GitHub	GitHub
+	Website	Trang web
+	Classic apps	Ứng dụng cổ điển
+	New apps	Ứng dụng mới
+	NEW	MỚI
+	New	Mới
+	Open	Mở
+	Close	Đóng
+	Done	Xong
+	Cancel	Hủy
+	OK	OK
+	Later	Để sau
+	Dismiss	Bỏ qua
+	Learn more	Tìm hiểu thêm
+	Join the Discord	Tham gia Discord
+	Open link	Mở liên kết
+	link	liên kết
+	Minimize	Thu nhỏ
+	Maximize	Phóng to
+	Restore	Khôi phục
+	Loading ArtCraft Launcher…	Đang tải ArtCraft Launcher…
+	Quit ArtCraft Launcher	Thoát ArtCraft Launcher
+	Show ArtCraft Launcher	Hiện ArtCraft Launcher
+	Automatically	Tự động
+	Auto	Tự động
+	Language	Ngôn ngữ
+	Appearance	Giao diện
+	Community	Cộng đồng
+	App	Ứng dụng
+	Every Craft app	Mọi ứng dụng Craft
+	Hide App	Ẩn ứng dụng
+	Unhide App	Hiện lại ứng dụng
+	Hidden Apps	Ứng dụng đã ẩn
+	Apps you hid	Ứng dụng bạn đã ẩn
+	Ascending	Tăng dần
+	Descending	Giảm dần
+	Click to reverse the order	Nhấp để đảo thứ tự
+	Click to sort by this column	Nhấp để sắp xếp theo cột này
+	Match system	Theo hệ thống
+	Dark	Tối
+	Light	Sáng
+	No apps match	Không có ứng dụng nào khớp
+	Like {name}	Giống {name}
+	{name} icon	Biểu tượng {name}
+	{name} {version}	{name} {version}
+	{a} and {b}	{a} và {b}
+	Visit getartcraft.com	Truy cập getartcraft.com
+	ArtCraft on GitHub	ArtCraft trên GitHub
+	Join the ArtCraft Discord	Tham gia ArtCraft Discord

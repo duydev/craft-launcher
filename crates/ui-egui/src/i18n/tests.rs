@@ -384,6 +384,24 @@ fn japanese_locales_and_counts_work() {
     assert_eq!(message(Lang::JA, "PhotoCraft updated to 0.5.0"), "PhotoCraft を 0.5.0 に更新しました");
 }
 
+#[test]
+fn vietnamese_locales_resolve() {
+    for tag in ["vi", "vi-VN", "vi_VN.UTF-8", "VI_vn"] {
+        assert_eq!(lang_from_tag(tag), Some(Lang::VI), "{tag}");
+    }
+    assert_eq!(super::detect::first_supported(["xx-XX", "vi-VN", "en-US"]), Some(Lang::VI));
+}
+
+#[test]
+fn vietnamese_has_one_plural_form() {
+    // Catalog plurals land in a later commit; until then English falls through.
+    for n in [0, 1, 2, 11, 100] {
+        assert_eq!((Lang::VI.0.plural)(n), 0, "{n}");
+    }
+    assert_eq!(trn(Lang::VI, 2, "{n} unknown item", "{n} unknown items"), "2 unknown items");
+    assert_eq!(tr(Lang::VI, "Untranslated diagnostic"), "Untranslated diagnostic");
+}
+
 /// With the system's Chinese font installed, every UI family can draw the whole Chinese catalog.
 /// Machines without one (CI, the web) skip this; the UI then stays in English.
 #[test]
