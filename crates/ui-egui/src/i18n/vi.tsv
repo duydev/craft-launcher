@@ -95,3 +95,35 @@
 	Visit getartcraft.com	Truy cập getartcraft.com
 	ArtCraft on GitHub	ArtCraft trên GitHub
 	Join the ArtCraft Discord	Tham gia ArtCraft Discord
+# Discovery / browsing: filters, cards, table labels, status, empty search
+	Coming soon	Sắp ra mắt
+	Not available	Không khả dụng
+	Offline	Ngoại tuyến
+	Apps on this computer	Ứng dụng trên máy này
+	Installed apps with a newer version	Ứng dụng đã cài có phiên bản mới hơn
+	Apps you can install	Ứng dụng bạn có thể cài
+	Available to install	Có thể cài đặt
+	Available	Khả dụng
+	Installed · up to date	Đã cài · mới nhất
+	Update available	Có bản cập nhật
+	Installed	Đã cài đặt
+	installed	đã cài đặt
+	Not available here	Không khả dụng tại đây
+	Latest	Mới nhất
+	Released	Phát hành
+	Checked {ago}	Đã kiểm tra {ago}
+	Checked {ago} · using {sources}	Đã kiểm tra {ago} · nguồn {sources}
+	Not checked yet	Chưa kiểm tra
+	just now	vừa xong
+	yesterday	hôm qua
+	Update 1 app	Cập nhật 1 ứng dụng
+	Update all ({count})	Cập nhật tất cả ({count})
+	Version {version}	Phiên bản {version}
+	Version {latest}	Phiên bản {latest}
+	Version {version} installed	Đã cài phiên bản {version}
+	{version} installed → {latest} released	Đã cài {version} → phát hành {latest}
+	{installed} installed · latest {latest}	Đã cài {installed} · mới nhất {latest}
+	Installed · latest {latest}	Đã cài · mới nhất {latest}
+	No release published yet	Chưa có bản phát hành
+	GitHub's hourly limit was reached; full details return in {min} min	Đã đạt giới hạn theo giờ của GitHub; chi tiết đầy đủ trở lại sau {min} phút
+	GitHub limit hit; back in {min} min	Đạt giới hạn GitHub; trở lại sau {min} phút
