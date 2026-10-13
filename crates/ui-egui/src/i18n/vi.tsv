@@ -7,7 +7,7 @@
 # Other context = disambiguation for tr_ctx.
 #
 # Clean-room: written from the meaning of ArtCraft Launcher's English labels in neutral Vietnamese
-# appropriate for desktop software. Product names stay in English.
+# appropriate for desktop software.
 #
 # Coverage: the whole interface — every menu string and tl! literal (complete_menus = true).
 # Left in English on purpose: product name "ArtCraft Launcher" (and its "Launcher" tag), suite
@@ -18,7 +18,6 @@
 # {what}, {unit}, {real}, {e} must appear in translation.
 # Vietnamese has one plural form.
 
-# Global shell / navigation and generic top-level controls
 	Launcher	Launcher
 	Craft App Suite	Craft App Suite
 	ArtCraft Launcher	ArtCraft Launcher
@@ -96,7 +95,6 @@
 	Visit getartcraft.com	Truy cập getartcraft.com
 	ArtCraft on GitHub	ArtCraft trên GitHub
 	Join the ArtCraft Discord	Tham gia ArtCraft Discord
-# Discovery / browsing: filters, cards, table labels, status, empty search
 	Coming soon	Sắp ra mắt
 	Not available	Không khả dụng
 	Offline	Ngoại tuyến
@@ -128,7 +126,6 @@
 	No release published yet	Chưa có bản phát hành
 	GitHub's hourly limit was reached; full details return in {min} min	Đã đạt giới hạn theo giờ của GitHub; chi tiết đầy đủ trở lại sau {min} phút
 	GitHub limit hit; back in {min} min	Đạt giới hạn GitHub; trở lại sau {min} phút
-# Install / update / download lifecycle
 	Install	Cài đặt
 	Update	Cập nhật
 	Update to {v}	Cập nhật lên {v}
@@ -173,6 +170,8 @@
 	{done} of {total}	{done} / {total}
 	{done} of {total} downloaded	Đã tải {done} / {total}
 	{done} downloaded	Đã tải {done}
+
+# Package formats offered for download (PackageKind::label)
 	Installer (.msi)	Trình cài đặt (.msi)
 	Portable (.zip)	Bản portable (.zip)
 	Disk image (.dmg)	Ảnh đĩa (.dmg)
@@ -185,7 +184,6 @@
 	No downloads for this system	Không có bản tải xuống cho hệ thống này
 	Checking…	Đang kiểm tra…
 	Checking for updates…	Đang kiểm tra cập nhật…
-# Settings / preferences / appearance / community links
 	Only when I ask	Chỉ khi tôi yêu cầu
 	Automatically download and install updates	Tự động tải xuống và cài đặt cập nhật
 	Notify me when an installed app has an update	Thông báo khi ứng dụng đã cài có bản cập nhật
@@ -205,7 +203,6 @@
 	GitHub repository	Kho GitHub
 	When on, opening the launcher from the menu bar brings its window to the desktop you're on. When off, macOS switches you to the desktop the window was on.	Khi bật, mở launcher từ thanh menu đưa cửa sổ về desktop bạn đang dùng. Khi tắt, macOS chuyển bạn sang desktop nơi cửa sổ đang nằm.
 	Couldn't change the login item: {e}	Không đổi được mục đăng nhập: {e}
-# Dialogs, release notes chrome, app details
 	Release notes	Ghi chú phát hành
 	All releases	Tất cả bản phát hành
 	ArtCraft Launcher {version} is available.	ArtCraft Launcher {version} đã có.
@@ -240,9 +237,9 @@
 	Loading pictures…	Đang tải ảnh…
 	Pictures couldn't be loaded. Reopen this page to try again.	Không tải được ảnh. Mở lại trang này để thử lại.
 	{name} details	Chi tiết {name}
-# Contextual metadata, dates and plurals
 	{month} {day}, {year}	{day} {month}, {year}
 
+# Contextual: each app's tagline, keyed by app id
 photocraft	Image editing	Chỉnh sửa ảnh
 vectorcraft	Vector illustration	Minh họa vector
 filmcraft	Video editing, color and sound	Chỉnh sửa video, màu và âm thanh
@@ -257,6 +254,7 @@ cadcraft	Computer-aided design and drafting	Thiết kế và vẽ kỹ thuật c
 soundcraft	Recording, editing and mixing audio	Ghi âm, chỉnh sửa và trộn âm thanh
 figcraft	Interface design and prototyping	Thiết kế giao diện và tạo nguyên mẫu
 
+# Contextual: month abbreviations for date rendering
 month	Jan	Thg 1
 month	Feb	Thg 2
 month	Mar	Thg 3
@@ -270,18 +268,22 @@ month	Oct	Thg 10
 month	Nov	Thg 11
 month	Dec	Thg 12
 
+# Contextual: table column headers
 column	App	Ứng dụng
 column	Installed	Đã cài
 column	Latest	Mới nhất
 column	Released	Phát hành
 
+# Contextual: the filter tab names a group (the status pill says "Installed")
 filter	Installed	Đã cài đặt
 
+# Plural forms for Vietnamese (one form: Vietnamese nouns don't inflect for number)
 @plural	{n} app|{n} apps	{n} ứng dụng
 @plural	{n} min ago|{n} min ago	{n} phút trước
 @plural	{n} h ago|{n} h ago	{n} giờ trước
 @plural	{n} day ago|{n} days ago	{n} ngày trước
-# Runtime messages, command IDs, tray, notifications
+
+# Message templates (@msg): toasts from the backend. {placeholders} match any text.
 @msg	Couldn't open {name}: {e}	Không mở được {name}: {e}
 @msg	Download cancelled	Đã hủy tải xuống
 @msg	{name} updated to {version}	{name} đã cập nhật lên {version}
@@ -289,6 +291,8 @@ filter	Installed	Đã cài đặt
 @msg	{name} was removed	{name} đã được gỡ
 @msg	{name} is running. Quit it, then try again.	{name} đang chạy. Hãy thoát rồi thử lại.
 
+# Command IDs for menu items (@id)
+# Format: @id<TAB>command_id<TAB>translation
 @id	app.install	Cài đặt
 @id	app.update	Cập nhật lên {v}
 @id	app.open	Mở
@@ -332,8 +336,8 @@ filter	Installed	Đã cài đặt
 @id	tray.login_item	Khởi động ArtCraft Launcher khi tôi đăng nhập
 @id	appearance.theme	Giao diện
 
+# Tray (menu bar) menu and tooltip
 	Open ArtCraft Launcher to update.	Mở ArtCraft Launcher để cập nhật.
 	{name} {v} is available	{name} {v} đã có
 	{count} updates are available	Có {count} bản cập nhật
-
 @plural	ArtCraft Launcher · {n} update available|ArtCraft Launcher · {n} updates available	ArtCraft Launcher · có {n} bản cập nhật
