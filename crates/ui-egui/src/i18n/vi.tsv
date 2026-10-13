@@ -280,3 +280,59 @@ filter	Installed	Đã cài đặt
 @plural	{n} min ago|{n} min ago	{n} phút trước
 @plural	{n} h ago|{n} h ago	{n} giờ trước
 @plural	{n} day ago|{n} days ago	{n} ngày trước
+# Runtime messages, command IDs, tray, notifications
+@msg	Couldn't open {name}: {e}	Không mở được {name}: {e}
+@msg	Download cancelled	Đã hủy tải xuống
+@msg	{name} updated to {version}	{name} đã cập nhật lên {version}
+@msg	{name} installed: {version}	{name} đã cài: {version}
+@msg	{name} was removed	{name} đã được gỡ
+@msg	{name} is running. Quit it, then try again.	{name} đang chạy. Hãy thoát rồi thử lại.
+
+@id	app.install	Cài đặt
+@id	app.update	Cập nhật lên {v}
+@id	app.open	Mở
+@id	app.download	Tải xuống cho {os}
+@id	app.reveal	Hiện trong Finder
+@id	app.reinstall	Cài lại
+@id	app.uninstall	Gỡ cài đặt…
+@id	app.notes	Ghi chú phát hành
+@id	app.website	Trang web
+@id	app.github	Kho GitHub
+@id	app.releases	Tất cả bản phát hành
+@id	launcher.update	Cập nhật và khởi động lại
+@id	launcher.download	Tải xuống
+@id	launcher.notes	Có gì mới
+@id	launcher.dismiss	Bỏ qua
+@id	settings.open	Cài đặt
+@id	settings.quit	Thoát ArtCraft Launcher
+@id	view.grid	Lưới
+@id	view.table	Bảng
+@id	filter.all	Tất cả
+@id	filter.installed	Đã cài đặt
+@id	filter.updates	Cập nhật
+@id	filter.notinstalled	Chưa cài đặt
+@id	sort.suite	Thứ tự bộ ứng dụng
+@id	sort.name	Tên
+@id	sort.inspired	Lấy cảm hứng từ
+@id	sort.status	Trạng thái
+@id	sort.installed	Phiên bản đã cài
+@id	sort.latest	Phiên bản mới nhất
+@id	sort.released	Bản phát hành mới nhất
+@id	help.discord	Discord
+@id	help.github	GitHub
+@id	help.website	Trang web
+@id	update.check	Kiểm tra cập nhật
+@id	update.check_auto	Tự động kiểm tra cập nhật
+@id	update.notify	Thông báo khi ứng dụng đã cài có bản cập nhật
+@id	update.prereleases	Bao gồm bản trước phát hành (beta và ứng viên phát hành)
+@id	linux.preferred_kind	Cài ứng dụng mới dưới dạng
+@id	tray.close_to_tray	Tiếp tục chạy trên khay khi đóng cửa sổ
+@id	tray.show_on_current_desktop	Hiện cửa sổ trên desktop hiện tại
+@id	tray.login_item	Khởi động ArtCraft Launcher khi tôi đăng nhập
+@id	appearance.theme	Giao diện
+
+	Open ArtCraft Launcher to update.	Mở ArtCraft Launcher để cập nhật.
+	{name} {v} is available	{name} {v} đã có
+	{count} updates are available	Có {count} bản cập nhật
+
+@plural	ArtCraft Launcher · {n} update available|ArtCraft Launcher · {n} updates available	ArtCraft Launcher · có {n} bản cập nhật

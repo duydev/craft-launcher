@@ -401,6 +401,7 @@ fn vietnamese_locales_and_counts_work() {
     assert_eq!(tr(Lang::VI, "Untranslated diagnostic"), "Untranslated diagnostic");
     assert_eq!(super::tr_ctx(Lang::VI, "month", "Mar"), "Thg 3");
     assert_eq!(tr(Lang::VI, "{month} {day}, {year}"), "{day} {month}, {year}");
+    assert_eq!(message(Lang::VI, "PhotoCraft updated to 0.5.0"), "PhotoCraft đã cập nhật lên 0.5.0");
 }
 
 /// With the system's Chinese font installed, every UI family can draw the whole Chinese catalog.
