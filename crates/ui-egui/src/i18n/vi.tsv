@@ -127,3 +127,60 @@
 	No release published yet	Chưa có bản phát hành
 	GitHub's hourly limit was reached; full details return in {min} min	Đã đạt giới hạn theo giờ của GitHub; chi tiết đầy đủ trở lại sau {min} phút
 	GitHub limit hit; back in {min} min	Đạt giới hạn GitHub; trở lại sau {min} phút
+# Install / update / download lifecycle
+	Install	Cài đặt
+	Update	Cập nhật
+	Update to {v}	Cập nhật lên {v}
+	Download	Tải xuống
+	Download for {os}	Tải xuống cho {os}
+	Downloading {done} of {total}	Đang tải {done} / {total}
+	Downloading…	Đang tải xuống…
+	Downloading	Đang tải xuống
+	Reconnecting…	Đang kết nối lại…
+	Verifying…	Đang xác minh…
+	Verifying checksum…	Đang xác minh checksum…
+	Installing, then restarting…	Đang cài đặt, sau đó khởi động lại…
+	Installing…	Đang cài đặt…
+	Updating…	Đang cập nhật…
+	Removing…	Đang gỡ…
+	Pause download	Tạm dừng tải xuống
+	Cancel download	Hủy tải xuống
+	Resume download	Tiếp tục tải xuống
+	Discard download	Hủy bỏ bản tải xuống
+	Resume	Tiếp tục
+	Show in Finder	Hiện trong Finder
+	Show in Explorer	Hiện trong Explorer
+	Show in Files	Hiện trong Files
+	Reinstall	Cài lại
+	Uninstall…	Gỡ cài đặt…
+	Uninstall	Gỡ cài đặt
+	Cancel update	Hủy cập nhật
+	Stop waiting; the update can be started again later	Dừng chờ; có thể bắt đầu lại cập nhật sau
+	Download again	Tải xuống lại
+	Install cancelled	Đã hủy cài đặt
+	Install cancelled. The download is kept for the next try.	Đã hủy cài đặt. Bản tải xuống được giữ lại cho lần thử sau.
+	Update cancelled	Đã hủy cập nhật
+	Uninstall cancelled	Đã hủy gỡ cài đặt
+	Retry install	Thử cài lại
+	Retry update to {version}	Thử cập nhật lại lên {version}
+	The download is still here. It's checked again, then installed.	Bản tải xuống vẫn còn. Sẽ được kiểm tra lại rồi cài đặt.
+	Waiting for another app…	Đang chờ ứng dụng khác…
+	Waiting for other installs…	Đang chờ các lần cài khác…
+	Update paused	Cập nhật tạm dừng
+	Download paused	Tải xuống tạm dừng
+	Download cancelled	Đã hủy tải xuống
+	{done} of {total}	{done} / {total}
+	{done} of {total} downloaded	Đã tải {done} / {total}
+	{done} downloaded	Đã tải {done}
+	Installer (.msi)	Trình cài đặt (.msi)
+	Portable (.zip)	Bản portable (.zip)
+	Disk image (.dmg)	Ảnh đĩa (.dmg)
+	Debian package (.deb)	Gói Debian (.deb)
+	RPM package (.rpm)	Gói RPM (.rpm)
+	Flatpak bundle	Gói Flatpak
+	Tarball (.tar.gz)	Tarball (.tar.gz)
+	Installing for {platform}	Cài đặt cho {platform}
+	Downloads for {platform}	Tải xuống cho {platform}
+	No downloads for this system	Không có bản tải xuống cho hệ thống này
+	Checking…	Đang kiểm tra…
+	Checking for updates…	Đang kiểm tra cập nhật…
