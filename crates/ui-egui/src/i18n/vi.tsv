@@ -239,3 +239,44 @@
 	Loading pictures…	Đang tải ảnh…
 	Pictures couldn't be loaded. Reopen this page to try again.	Không tải được ảnh. Mở lại trang này để thử lại.
 	{name} details	Chi tiết {name}
+# Contextual metadata, dates and plurals
+	{month} {day}, {year}	{day} {month}, {year}
+
+photocraft	Image editing	Chỉnh sửa ảnh
+vectorcraft	Vector illustration	Minh họa vector
+filmcraft	Video editing, color and sound	Chỉnh sửa video, màu và âm thanh
+lightcraft	Photo library and raw development	Thư viện ảnh và xử lý RAW
+pdfcraft	Reading, organizing and protecting PDFs	Đọc, sắp xếp và bảo vệ PDF
+effectcraft	Motion graphics and visual effects	Đồ họa chuyển động và hiệu ứng hình ảnh
+designcraft	Page layout and publishing	Dàn trang và xuất bản
+wordcraft	Writing and document design	Soạn thảo và thiết kế tài liệu
+deckcraft	Presentations and slide shows	Thuyết trình và trình chiếu
+gridcraft	Spreadsheets and data	Bảng tính và dữ liệu
+cadcraft	Computer-aided design and drafting	Thiết kế hỗ trợ máy tính và bản vẽ
+soundcraft	Recording, editing and mixing audio	Ghi âm, chỉnh sửa và hòa âm
+figcraft	Interface design and prototyping	Thiết kế giao diện và tạo nguyên mẫu
+
+month	Jan	Thg 1
+month	Feb	Thg 2
+month	Mar	Thg 3
+month	Apr	Thg 4
+month	May	Thg 5
+month	Jun	Thg 6
+month	Jul	Thg 7
+month	Aug	Thg 8
+month	Sep	Thg 9
+month	Oct	Thg 10
+month	Nov	Thg 11
+month	Dec	Thg 12
+
+column	App	Ứng dụng
+column	Installed	Đã cài
+column	Latest	Mới nhất
+column	Released	Phát hành
+
+filter	Installed	Đã cài đặt
+
+@plural	{n} app|{n} apps	{n} ứng dụng
+@plural	{n} min ago|{n} min ago	{n} phút trước
+@plural	{n} h ago|{n} h ago	{n} giờ trước
+@plural	{n} day ago|{n} days ago	{n} ngày trước

@@ -385,21 +385,22 @@ fn japanese_locales_and_counts_work() {
 }
 
 #[test]
-fn vietnamese_locales_resolve() {
+fn vietnamese_locales_and_counts_work() {
     for tag in ["vi", "vi-VN", "vi_VN.UTF-8", "VI_vn"] {
         assert_eq!(lang_from_tag(tag), Some(Lang::VI), "{tag}");
     }
     assert_eq!(super::detect::first_supported(["xx-XX", "vi-VN", "en-US"]), Some(Lang::VI));
-}
-
-#[test]
-fn vietnamese_has_one_plural_form() {
-    // Catalog plurals land in a later commit; until then English falls through.
+    // Vietnamese has one plural form.
     for n in [0, 1, 2, 11, 100] {
-        assert_eq!((Lang::VI.0.plural)(n), 0, "{n}");
+        assert_eq!(trn(Lang::VI, n, "{n} app", "{n} apps"), format!("{n} ứng dụng"));
+        assert_eq!(trn(Lang::VI, n, "{n} min ago", "{n} min ago"), format!("{n} phút trước"));
+        assert_eq!(trn(Lang::VI, n, "{n} h ago", "{n} h ago"), format!("{n} giờ trước"));
+        assert_eq!(trn(Lang::VI, n, "{n} day ago", "{n} days ago"), format!("{n} ngày trước"));
     }
     assert_eq!(trn(Lang::VI, 2, "{n} unknown item", "{n} unknown items"), "2 unknown items");
     assert_eq!(tr(Lang::VI, "Untranslated diagnostic"), "Untranslated diagnostic");
+    assert_eq!(super::tr_ctx(Lang::VI, "month", "Mar"), "Thg 3");
+    assert_eq!(tr(Lang::VI, "{month} {day}, {year}"), "{day} {month}, {year}");
 }
 
 /// With the system's Chinese font installed, every UI family can draw the whole Chinese catalog.
