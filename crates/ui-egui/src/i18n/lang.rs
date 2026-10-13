@@ -224,7 +224,7 @@ pub static LANGUAGES: [LangInfo; 12] = [
         source: include_str!("vi.tsv"),
         plural: plural_none,
         plural_forms: 1,
-        complete_menus: false,
+        complete_menus: true,
         catalog: OnceLock::new(),
     },
 ];
