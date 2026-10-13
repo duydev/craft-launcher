@@ -204,3 +204,38 @@
 	GitHub repository	Kho GitHub
 	When on, opening the launcher from the menu bar brings its window to the desktop you're on. When off, macOS switches you to the desktop the window was on.	Khi bật, mở launcher từ thanh menu đưa cửa sổ về desktop bạn đang dùng. Khi tắt, macOS chuyển bạn sang desktop nơi cửa sổ đang nằm.
 	Couldn't change the login item: {e}	Không đổi được mục đăng nhập: {e}
+# Dialogs, release notes chrome, app details
+	Release notes	Ghi chú phát hành
+	All releases	Tất cả bản phát hành
+	ArtCraft Launcher {version} is available.	ArtCraft Launcher {version} đã có.
+	Update and restart	Cập nhật và khởi động lại
+	A new version is available. Would you like to relaunch with the updated version?	Đã có phiên bản mới. Bạn có muốn khởi động lại với phiên bản đã cập nhật không?
+	What's new	Có gì mới
+	No notes were published with this release.	Bản phát hành này không đăng ghi chú.
+	Released {date}	Phát hành {date}
+	Open on GitHub	Mở trên GitHub
+	ArtCraft Launcher {version}	ArtCraft Launcher {version}
+	Uninstall {name}?	Gỡ cài đặt {name}?
+	The app will be moved to the Trash. Your documents and settings stay.	Ứng dụng sẽ được đưa vào Thùng rác. Tài liệu và cài đặt của bạn vẫn giữ nguyên.
+	Windows will remove it like any installed program. Your documents and settings stay.	Windows sẽ gỡ như mọi chương trình đã cài. Tài liệu và cài đặt của bạn vẫn giữ nguyên.
+	Your system's package manager will remove it, and may ask for your password. Your documents and settings stay.	Trình quản lý gói hệ thống sẽ gỡ, và có thể hỏi mật khẩu. Tài liệu và cài đặt của bạn vẫn giữ nguyên.
+	The app will be removed. Your documents and settings stay.	Ứng dụng sẽ bị gỡ. Tài liệu và cài đặt của bạn vẫn giữ nguyên.
+	Downloads the new version, replaces this one and opens it again	Tải phiên bản mới, thay thế bản hiện tại và mở lại
+	Couldn't check for updates: {f}	Không kiểm tra được cập nhật: {f}
+	Couldn't open {name}: {e}	Không mở được {name}: {e}
+	Full changelog	Nhật ký thay đổi đầy đủ
+	These notes weren't fetched (GitHub's request limit was reached). They're on the release page.	Không tải được các ghi chú này (đã đạt giới hạn yêu cầu của GitHub). Chúng nằm trên trang phát hành.
+	App details	Chi tiết ứng dụng
+	Close (Esc)	Đóng (Esc)
+	Features	Tính năng
+	Latest release	Bản phát hành mới nhất
+	Version	Phiên bản
+	Platforms	Nền tảng
+	Releases	Bản phát hành
+	Enlarge picture	Phóng to ảnh
+	Click to enlarge	Nhấp để phóng to
+	Previous picture (←)	Ảnh trước (←)
+	Next picture (→)	Ảnh sau (→)
+	Loading pictures…	Đang tải ảnh…
+	Pictures couldn't be loaded. Reopen this page to try again.	Không tải được ảnh. Mở lại trang này để thử lại.
+	{name} details	Chi tiết {name}
